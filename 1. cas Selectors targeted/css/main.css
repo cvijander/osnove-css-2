@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+div p {
+    background-color: #ddd;
+}
+
+/* direct child*/
+div > p {
+    background-color: aqua;
+}
+
+/* directly after */
+
+div + p {
+    background-color: blueviolet;
+}
+
+/* by attribute */ 
+
+a[target="_blank"] {
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+/* attr value*/
+
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="submit"]
+{
+    width: 100%;
+}
+/*p i lista dakle obuhvatamo sve clanove liste koji se nalaze izmedju paragrafa koji imaju istog roditelja  */
+p ~ ul {
+    background-color: red;
+}
