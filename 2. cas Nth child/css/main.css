@@ -1,0 +1,32 @@
+li {
+    list-style: none;
+    margin: 4px;
+    padding: 4px;
+}
+
+li:first-child {
+ background-color: brown;
+}
+
+li:last-child {
+    background-color: brown;
+}
+
+li:nth-child(3){
+    background-color: aqua;
+}
+
+li:nth-child(3n){
+    background-color: yellow;
+}
+li:nth-child(3n+8) {
+    background-color: blueviolet;
+}
+
+li:nth-child(odd){
+    background-color: #ccc;
+}
+
+li:nth-child(even){
+    background-color: bisque;
+}
