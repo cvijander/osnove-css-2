@@ -1,0 +1,26 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h1.a {
+    /* h-shadow | v-shadow | color */
+    text-shadow: 3px 3px cadetblue;
+}
+
+h1.b {
+    /* h-shadow | v-shadow | blur | color */
+    text-shadow: 3px 3px 5px cadetblue;
+}
+
+h1.c {
+    /* white text */
+    color:#fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h1.d {
+    /* Negativne vrednosti*/
+    text-shadow: -4px -4px 3px cadetblue;
+}
