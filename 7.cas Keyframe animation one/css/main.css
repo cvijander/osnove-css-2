@@ -15,8 +15,26 @@ body {
     animation-delay: 1s;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
-
 }
+
+.box1 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:0;
+    left:0;
+    
+
+    animation-name: animate2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
 
 @keyframes animate1{
     from {
@@ -27,4 +45,32 @@ body {
         background-color: tomato;
         top:350px;
     }
+   
+}
+
+@keyframes animate2{
+  25% {
+    top:0;
+    left:300px;
+    background-color: red;
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    top:300px;
+    left: 300px;
+    background-color: rgb(71, 255, 135);
+    border-radius: 50% 0 25% 0;
+  }
+  75% {
+    top:300px;
+    left:0;
+    background-color: gray;
+    border-radius: 50% 0 50% 0;
+  }
+  100% {
+    top:0;
+    left:0;
+    background-color: yellowgreen;
+    border-radius: 50%;
+  }
 }
