@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Side nav full width</title>
+</head>
+<body>
+    
+<div id="side-nav" class="sidenav">
+    <a href="#" class="times" onclick="closeNav()">&times;</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Clients</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+
+</div>
+
+<span onclick="openNav()">&#9776; open</span>
+
+<script>
+    function openNav() {
+   document.querySelector('#side-nav').style.width ="100%";
+    }
+
+    function closeNav() {
+        document.querySelector('#side-nav').style.width="0";
+    }
+</script>
+</body>
+</html>
